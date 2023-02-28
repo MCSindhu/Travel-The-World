@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100vh;
+    background-color: rgb(227, 224, 224);
+}
+.header{
+    background-color: darkblue;
+    height: 15vh;
+    width: 100vw;
+}
+
+li{
+    list-style-type: none;
+    float: right;
+   
+    padding: 10px;
+
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(134, 223, 245);
+    font-size: 17px;
+    
+}
+a:hover{
+    background-color: aqua;
+    color: darkblue;
+    border-radius: 7px;
+    
+}
+button{
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+}
+ul{
+    transform: translate(-50px,-15px);
+    
+    
+}
+#heading1{
+   transform: translate(50px,20px);
+   color:rgb(134, 223, 245) ;
+   font-size: 40px;
+   width: 50vw;
+   
+}
+.wrap{
+    /* background-color: rgb(255, 255, 255); */
+    width: 100vw;
+    height: 90vh;
+    margin: auto;
+    display: flex;
+    /* align-items: center; */
+    padding-top: 15px;
+    justify-content: space-evenly;
+    
+
+   
+    
+}
+.right{
+    width: 45vw;
+    height: 80vh;
+     /* margin-left: 30px;
+    margin-right: 30px; */
+    padding-left: 30px; 
+    background-color: rgb(255, 255, 255);
+    box-shadow: 15px 15px 15px gray;
+    
+    
+}
+.left{
+    width: 45vw;
+    height: 80vh;
+    /* margin-left: 30px; */
+    padding-left: 30px; 
+    background-color: rgb(255, 255, 255);
+    font-size: 25px;
+    box-shadow: 15px 15px 15px gray;
+    
+}
+.lec{
+    font-size: 17px;
+}
+#heading2{
+    border-bottom: solid rgb(249, 111, 134) 4px;
+}
+.input{
+    padding: 10px 200px;
+    
+    
+}
+#submit{
+    padding: 10px;
+    width: 100px;
+    margin-left: 250px;
+    background-color: rgb(249, 111, 134);
+    transform: translateY(5px);
+    border: none;
+    border-radius: 10px;
+}
+i{
+    color: deeppink;
+}
+b{
+    padding-left: 20px;
+}
+img{
+    margin-left: -29px;
+    width: 716px;
+    height: 330px;
+    
+    border: solid  rgb(121, 176, 244) 3px;
+    
+    
+}
+
+
+
